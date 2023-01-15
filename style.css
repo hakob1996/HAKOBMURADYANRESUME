@@ -1,0 +1,99 @@
+#wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+}
+#header{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1vw;
+}
+#header *{
+    margin: 2vh;
+}
+#fullName{
+    color:rgb(91, 88, 88);
+}
+#positionN{
+    color: rgb(0, 145, 106);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ #profPicP{
+    padding: 2px;
+    border-radius: 20px;
+    height: 10vw;
+}
+#aboutMe{
+    flex-shrink: 5;
+}
+#myInfo{
+    background-color: rgb(52, 55, 85);
+    color: white;
+    padding: 1vw;
+    font-size: 1em;
+    border-radius: 20px;
+}
+ #picture{
+    border-radius: 20px;
+    width:100%;
+    height:100%;
+    border: 5px solid rgb(0, 145, 106)
+}
+#skillsP{
+    display: flex;
+    flex-direction: column;
+}
+#skillsTitle{
+    padding: 0 1vw 0 1vw;
+    color: rgb(91, 88, 88);
+}
+#skillsList{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.skillName{
+    background-color: rgb(150, 141, 141);
+    margin: 10px;
+    height: 2vw;
+    padding: 5px 10px 5px 10px;
+    border-radius:5px;
+    color: white;
+    text-align: center;
+}
+
+#experianceP{
+    display: flex;
+    flex-direction: column;
+}
+.titles{
+    padding: 0 1vw 0 1vw;
+    color: rgb(91, 88, 88);
+
+}
+.locations{
+    float: right;
+}
+
+.sectionTitle{
+    color: rgb(0, 145, 106);
+}
+.datesAndRes{
+    color: rgb(0, 145, 106);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bolds{
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subCat{
+    font-weight: 300;
+}
+ul{
+    list-style-type: square;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
